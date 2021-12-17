@@ -19,9 +19,9 @@ namespace _4_6
         }
         static void Main(string[] args)
         {
-            for (int i = 0; i < 7; i++)
+            foreach (string day in Enum.GetNames(typeof(week)))
             {
-                Console.WriteLine((week)i);
+                Console.WriteLine(day);
             }
             Console.WriteLine((week)4);
             Console.ReadLine();

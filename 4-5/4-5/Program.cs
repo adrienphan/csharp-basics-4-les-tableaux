@@ -20,7 +20,7 @@ namespace _4_5
             };
             //demande d'un type de tornade
             Console.WriteLine("entrez un type de tornade (F0 à F5)");
-            string tornadoInput = Console.ReadLine();
+            string tornadoInput = Console.ReadLine().ToUpper();
             //verifie si un type de tornade correspond à l'input
             for (int i = 0; i < fujita.Length-1; i++)
             {
@@ -28,7 +28,7 @@ namespace _4_5
                 {
                     Console.WriteLine(fujita[i,1]);
                 }
-            }
+            }            
         }
     }
 }

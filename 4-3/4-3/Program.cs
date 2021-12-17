@@ -14,10 +14,10 @@ namespace _4_3
             int result = 0;
             foreach(int a in numbers)
             {
-                Console.WriteLine(a);
                 result += a;
-                Console.WriteLine("total : " + result);
             }
+            Console.WriteLine("total de l'opération : " + String.Join(" + ", numbers) + " = " + result);
+            Console.ReadLine();
         }
     }
 }

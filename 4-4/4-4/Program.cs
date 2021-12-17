@@ -26,7 +26,8 @@ namespace _4_4
                 result *= a;
                 allNumbers += " " + a;
             }
-            Console.WriteLine("Produit : " + result + "\n les nombres etaient :" + allNumbers);
+            Console.WriteLine("Produit : " + result + "\n l'opération etait " + allNumbers);
+            Console.Read();
         }
     }
 }
